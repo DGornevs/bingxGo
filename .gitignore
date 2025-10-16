@@ -1,0 +1,35 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace file
+go.work
+
+# Dependency directories (remove the comment below if you use Go modules)
+vendor/
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+
+# Build output
+build/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# environment files
+.env
+
+# go files
+go.sum
